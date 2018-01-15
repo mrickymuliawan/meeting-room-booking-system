@@ -1,0 +1,70 @@
+
+select option[disabled]{
+  /*color: white !important;*/
+  background:#bdbdbd;
+}
+input,select{
+	border-radius: 10px !important;
+}
+input[disabled],input[readonly],select[disabled]{
+  /*color: white !important;*/
+  background:#F8F9F9 !important;
+}
+.logo span{
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+.td-libur{
+	background: #F2F3F4;
+	/*color: white*/
+}
+
+@keyframes geser {
+  from { transform: translatex(-10%)}
+  to   { transform: translatex(0)}
+}
+.table-calendar{
+	animation: geser 0.5s;
+}
+.table-calendar td{
+	border: 1px solid #D7DBDD !important;
+	opacity: 0.8;
+	transition: 0.3s;
+}
+
+.table-calendar th{
+	background: #2471A3;
+	color: white;
+	border: 1px solid #D7DBDD !important;
+}
+.table-calendar td a{
+	color: black;
+	padding-bottom: 30px;
+	display: block;
+}
+
+.td-full{
+	background:#f56954;
+	color: white
+}
+.td-warning{
+	background:#f39c12;
+	opacity: 0.8;
+	color: white
+}
+.td-green{
+	background:#00a65a;
+	opacity: 0.8;
+	color: white
+}
+.td-full a,.td-warning a,.td-green a{
+	color: white !important; 
+}
+
+.table-calendar td:hover{
+	padding: 15px 15px 0px 0px;
+}
+.table-calendar td:hover a{
+	color: black !important
+}
